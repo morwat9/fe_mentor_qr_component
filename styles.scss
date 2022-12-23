@@ -1,0 +1,58 @@
+$primary-white: hsl(0, 0%, 100%);
+$primary-grey: hsl(212, 45%, 89%);
+$primary-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+$default-font: 'Outfit', sans-serif;
+
+html {
+    background-color: $primary-grey;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 15rem 0;
+}
+
+.card {
+    display: grid;
+    gap: 1.5rem;
+    background-color: $primary-white;
+    padding: 1em;
+    border-radius: 15px;
+    width: 17.5em;
+    font-family: $default-font;
+    border: 2px $primary-blue;
+
+    img {
+        border-radius: 10px;
+        width: inherit;
+    }
+
+    .title {
+        color: black;
+        text-align: center;
+        font-weight: 700;
+        font-size: 22px;
+
+    }
+
+    .body {
+        font-size: 15px;
+        color: $primary-blue;
+        font-weight: 400;
+        text-align: center;
+        padding: 0 1em;
+
+    }
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

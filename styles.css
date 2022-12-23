@@ -1,0 +1,48 @@
+html {
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 15rem 0;
+}
+
+.card {
+  display: grid;
+  gap: 1.5rem;
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1em;
+  border-radius: 15px;
+  width: 17.5em;
+  font-family: "Outfit", sans-serif;
+  border: 2px hsl(220deg, 15%, 55%);
+}
+.card img {
+  border-radius: 10px;
+  width: inherit;
+}
+.card .title {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+.card .body {
+  font-size: 15px;
+  color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
+  text-align: center;
+  padding: 0 1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css.map */
